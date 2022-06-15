@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+  }
+   body{
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:17px;
+    color:#0d2c03;
+    line-height:1.6;
+    text-align: right;
+  }
+   #navbar {
+    position: fixed;
+   
+  }
+  #showcase {
+    background-image: url(file:///Users/eiyawatinpresto/Downloads/1.JPG);
+    background-size: cover;
+    background-position: center;
+    height:60vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+  }
+  
+  #showcase .button{
+    font-size:18px;
+    text-decoration:none;
+    color:#ffffff;
+    border:#007506 2px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+   
+  }
+   #showcase .button:hover{
+    background:#215502;
+    color:#fff;
+  }
+  
+ #nav{
+    justify-content: end;
+    background-color: rgb(0, 0, 0);
+  
+ }
+   #section-a{
+    padding:20px;
+    background:#926239;
+    color:#fff;
+    text-align:center;
+  
+  }
+  
+  #section-a .img-fluid {
+      max-width: 60%;
+      height: auto;
+  }
+  
+ .verticalhorizontal {
+    display: flex;
+    size: 10%;
+    text-align: center;
+    vertical-align: middle;
+  
+ }
+ 
